@@ -1,0 +1,115 @@
+header,footer{
+  background: #222831;
+  color:white;
+  margin:10px 10px 10px 10px;
+}
+header h1{
+  margin-left: 10px;
+  width: 70%;
+}
+body{
+  background: #dbdbdb;
+ max-width: 1000px;
+  margin: 10px auto;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.button{
+  padding: 7px;
+
+}
+li{
+  line-height: 30px;
+}
+ul{
+  margin:0px;
+  padding:0px;
+  align:left;
+}
+header li{
+  display: inline;
+  padding: 5px;
+
+}
+header h1,nav
+{
+  display: inline-block;
+}
+main{
+padding: 10px;
+  width: 650px;
+  display: inline-block;
+}
+
+
+.product{
+
+  border: 1px solid grey;
+  width: 150px;
+margin: 5px;
+padding: 5px;
+display: inline-block;
+text-align: center;
+}
+aside{
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+img{
+  max-width: 100%;
+
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  color:gold;
+}
+.button:last-of-type{
+  background-color: blue;
+  color: white;
+}
+.productdetailpage img{
+  width: 50%;
+ float:right;
+}
+
+.productdetailpage
+{
+  width: 660px;
+}
+.form{
+  margin:10px;
+  padding:30px;
+}
+.form div{
+  padding: 10px;
+}
+.form label{
+  display: inline-block;
+  width: 100px;
+}
+input[type="text"],input[type="email"],textarea
+{ padding: 10px;
+  width: 200px;
+}
+table{
+  float: right;
+  width: 400px;
+  text-align: left;
+  margin: 20px 0px;
+}
+caption{
+  font-weight: bold;
+  font-style: italic;
+  border-bottom: 1px solid;
+  padding: 10px;
+}
+th td{
+  padding: 10px;
+}
+tr:hover{
+  background-color: pink;
+}
